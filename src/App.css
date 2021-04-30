@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.imagem{
+    width: 300px;
+    height: 330px;
+}
+
+.timer{
+    color:#fff;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: -180px;
+}
+
+.areaBtn{
+    flex-direction: row;
+    margin-top: 140px;
+    display: flex;
+}
+.botao{
+    padding: 5px;
+    background: #fff;
+    color: #00aeef;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.botao:hover{
+    filter: brightness(0.9);
+}
+
+h1{
+    margin: 10px;
+    color: #fff;
+    font-size: 50px;
+}
+h2{
+    margin: 10px;
+    color: #fff;
+}
